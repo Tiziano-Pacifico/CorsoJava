@@ -16,7 +16,7 @@ public class Driver {
 
         Funzioni funzioni = new Funzioni();
 
-        while (!scelta.equalsIgnoreCase("5"))  {
+        while (!scelta.equalsIgnoreCase(Costanti.ESCI))  {
             scelta = "";
             agent.stampaMenu();
 
@@ -54,7 +54,6 @@ public class Driver {
         System.out.println("2) Inserisci Paziente");
         System.out.println("3) Inserisci Fattura");
         System.out.println("4) Calcola totale fatture");
-        System.out.println("5) Inserisci metodo di pagamento");
         System.out.println("6) Esci \n");
     }
 }
