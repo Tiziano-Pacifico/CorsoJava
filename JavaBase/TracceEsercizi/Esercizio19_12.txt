@@ -1,0 +1,6 @@
+Creiamo un file di testo con dei valori numerici che devono essere inseriti in sequenza(10 inserimenti)
+
+da un file di letture ogni singolo numero viene letto e del totale calcoliamo 
+a) la media
+b) il minimo
+c) il massio

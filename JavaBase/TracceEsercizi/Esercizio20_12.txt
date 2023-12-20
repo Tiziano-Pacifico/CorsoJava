@@ -1,0 +1,5 @@
+Ipotezziamo di avere un file di 
+testo con dei dati così formattati su ogni riga
+cognome:nome:matricola:account:info
+Queste informazioni devono essere riprodotto in un nuovo dile e organizate secondo il formato
+nome cognome nome@acer.it
