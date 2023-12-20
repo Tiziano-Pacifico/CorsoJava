@@ -1,0 +1,3 @@
+Rossi:Mario:1111:rossimario:lavoratore
+Colli:Gino:2222:colligino:nullafacente
+DiCoccio:Mauro:3333:dicocciomauro:esploratore
