@@ -1,0 +1,13 @@
+Esercizio gestione venditori
+Ipotizziamo di gestire dei venditori .
+Ogni venditore viene identificato tramite un codice alfanumerico .
+I venditori sono una estensione di una classe Persona: (coognome - noome e
+cittaResidenza)
+I venditori avranno: Cognome, nome , cittaRisidenza, data_assunzione e Zona di Lavoro.
+La classe dei venditori è individuta dal file "Venditore.java"
+Le zone sono 3 (A, B ,C )
+Gestendo i venditori per singole zone e come oggetti
+- trovare il venditore che ha venduto di piu'
+(creare un metodo che compara le vendite di due venditori-->operarare su oggetti
+Venditore)
+Utilizziamo gli arrayList se possibile
