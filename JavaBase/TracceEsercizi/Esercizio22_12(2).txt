@@ -1,0 +1,17 @@
+Creiamo un applicazione che legge da un file dei codici scritti a caso
+[IMPLEMENTABILI SIA COME FILE SCRITTO DIRETTAMENTE DALL’UTENTE O COME FILE SCRITTO CON GENERAZIONE DEI DATI]
+esempio AWER015125 di tipo stringa
+li importa in un arraylist
+lo stampiamo sia come non ordinato sia ordinato
+Il tutto sviluppando diversi metodi.
+
+GERU2309
+IZXV4129
+AKDF1924
+AGKS1284
+NIKE9142
+XZDJ1249
+OAJB7294
+NEGM6913
+AIBG5912
+ISDA3496

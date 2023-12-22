@@ -1,0 +1,27 @@
+Gli oggetti devono essere inseriti in una  LinkedList
+Simuliamo un'officina di riparazioni auto.
+La classe che usiamo è Automobile.
+La deve avere come proprietà.
+- marca
+- modello
+- targa
+- alimentazione --->tipo enum
+- Motore (oggetto di tipo Motore)
+
+La classe Motore è una proprietà di automobile ed ha le seguenti proprietà:
+- cilindrata
+- cavalli
+
+  Creaimo una classe "GestioneOfficina"
+  In questa classe abbiamo dei metodi che:
+  - accettano auto in entrata
+  - mettono in uscita automobili
+  - contano quante auto sono in riparazione
+  - ha un metodo verniciatura() che cambia il colore delle auto
+  
+  La classe ha anche una variabile incasso con la quale accumuliamo
+  quanto ci è stato pagato per la riparazione, con un metodo
+  che ci ritorna l'importo.
+Motore e Automobile sono in rapporto di composizione: Automobile dipende da Motore
+Nella classe Automobile inseriamo anche la proprietà colore
+Volendo anche il colore potrebbe essere una enumerazone con una decina di colori prestabiliti
