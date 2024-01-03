@@ -1,0 +1,37 @@
+import factories.BeefFactory;
+import factories.PaninoFactory;
+import factories.VeggieFactory;
+import products.Panino;
+
+import java.util.Scanner;
+
+/*
+Panino: descritto da una classe
+	Classe: paninoVegano [propr] [metod]
+		paninoCarne [propr] [metod]
+Ristorante si occupa di preparare il panino in base alla scelta
+ */
+public class Main {
+
+    public static PaninoFactory factory;
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int scelta;
+        Panino panino;
+
+        System.out.println("Vuoi un panino: 1-carne ; 2-vegetariano?");
+        scelta = scanner.nextInt();
+        if(scelta==1) {
+            factory = new BeefFactory();
+        }
+        else {
+            factory = new VeggieFactory();
+        }
+
+        panino = factory.creaPanino();
+        System.out.println("Lista ingredienti del panino");
+        System.out.printf("PAnino con: %s, %s, %s", panino.getProteina(), panino.getVerdura(), panino.getSalsa());
+    }
+}
