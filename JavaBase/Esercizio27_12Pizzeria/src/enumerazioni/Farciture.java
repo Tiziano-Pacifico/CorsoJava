@@ -1,0 +1,5 @@
+package enumerazioni;
+
+public enum Farciture {
+    MAIONESE, VERDURA_STAGIONE, GORGONZOLA, ANANAS, PROSCIUTTO_COTTO, PROSCIUTTO_CRUDO, SALAMI
+}
