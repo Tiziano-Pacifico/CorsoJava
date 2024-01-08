@@ -1,0 +1,2 @@
+Creiamo una applicazione che gestisce la vendita di diversi tipi di panini, bibite e contorni
+Usare il pattern Abstract Factory
