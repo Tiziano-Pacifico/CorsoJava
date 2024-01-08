@@ -1,0 +1,4 @@
+Panino: descritto da una classe
+	Classe: paninoVegano [propr] [metod]	
+		paninoCarne [propr] [metod]
+Ristorante si occupa di preparare il panino in base alla scelta

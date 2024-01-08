@@ -1,0 +1,12 @@
+
+Si desidera implementare un sistema di prenotazione di biglietti per un cinema. Il cinema offre diversi tipi di biglietti, tra cui biglietti standard e biglietti VIP. Ogni tipo di biglietto ha una tariffa diversa.
+Definire un'interfaccia Ticket che abbia un metodo displayInfo() per visualizzare le informazioni del biglietto.
+Implementare due classi concrete che implementano l'interfaccia Ticket:
+StandardTicket: rappresenta un biglietto standard con una tariffa predefinita.
+VIPTicket: rappresenta un biglietto VIP con una tariffa più elevata.
+Definire un'interfaccia TicketFactory con un metodo createTicket() che restituisce un oggetto Ticket.
+Implementare due classi concrete che implementano l'interfaccia TicketFactory:
+StandardTicketFactory: restituisce istanze di StandardTicket.
+VIPTicketFactory: restituisce istanze di VIPTicket.
+Nel main del programma, utilizzare le fabbriche (TicketFactory) per creare istanze di biglietti (Ticket) senza dover conoscere la loro implementazione concreta.
+Questa traccia consente di applicare il pattern Factory per creare oggetti di diverse classi senza esplicitamente specificare le classi concrete nel codice client. Puoi implementare ulteriori funzionalità o dettagli a seconda delle tue esigenze.

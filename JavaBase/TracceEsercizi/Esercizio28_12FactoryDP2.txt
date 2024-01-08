@@ -1,0 +1,7 @@
+Cinema e Panini
+
+Implementiamo il codice della gestione cinema con la possibilità di gestire la creazione di diversi tipi di panini.
+Bisogna gestire la creazione:
+di interfacce (panini)
+interfaccia per la classe Abstract factory
+i metodi che creaono gli ogg. ticket e panini

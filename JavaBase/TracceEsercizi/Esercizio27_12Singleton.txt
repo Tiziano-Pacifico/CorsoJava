@@ -1,0 +1,6 @@
+Gestione Parcheggio:
+
+5 varchi e 10 posti nel parcheggio
+Da ogni varco le macchine possono entrare e uscire
+Ogni varco ha un metodo contaAuto() per sapere le auto presenti nel parcheggio
+Quando ci sono 10 auto nel parcheggio non è più possibile fare entrare auto
